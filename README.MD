@@ -214,13 +214,13 @@ Se realizaron las siguientes pruebas para comprobar el funcionamiento del servic
 | Prueba | Solicitud | Resultado esperado |
 |---|---|---|
 | Consulta de productos | GET /api/productos | 200 OK |
-![](imagenes\image-1.png)
+![](imagenes/image-1.png)
 | Registro de producto | POST /api/productos | 201 Created |
-![](imagenes\image-2.png)
+![](imagenes/image-2.png)
 | Encabezado incorrecto | GET /api/productos | 401 Unauthorized |
-!![](imagenes\image-5.png)
+!![](imagenes/image-5.png)
 | Verificación de encabezados | GET /api/productos | 200 OK |
-![](imagenes\image-4.png)
+![](imagenes/image-4.png)
 
 También se verificaron los siguientes encabezados de respuesta:
 
